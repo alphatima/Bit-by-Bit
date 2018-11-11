@@ -1,27 +1,12 @@
-/* Template colors
- Blue:
-  #0f7e9b
-  #92d7ef
-  #a2eae0
-  Beige
-  #f9cf92
- Gray:
-  #d5d1ca
-  #efefee
-  #e4e0dc
- Pink:
-  #f9acbb
-*/
 
 body{
-  font-family: 'Quicksand', sans-serif, Arial, Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #efefee;
+  background-color: #f4f4f4;
 }
-
 
 /* Global */
 .container{
@@ -37,10 +22,18 @@ ul{
 
 /* Header */
 header{
+<<<<<<< HEAD
   background-color: #0f7e9b;
   color: #ffffff;
   padding-top: 20px;
   min-height: 60px;
+=======
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+>>>>>>> 2f774ed9ef06e8dabef7dc1a4b0f96dad52316e2
 }
 
 header a{
@@ -70,7 +63,12 @@ header nav{
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 header .current a{
   color: #f9acbb;
+=======
+header .highlight, header .current a{
+  color: #e8491d;
+>>>>>>> 2f774ed9ef06e8dabef7dc1a4b0f96dad52316e2
   font-weight: bold;
 }
