@@ -1,0 +1,76 @@
+/* Template colors
+ Blue:
+  #0f7e9b
+  #92d7ef
+  #a2eae0
+  Beige
+  #f9cf92
+ Gray:
+  #d5d1ca
+  #efefee
+  #e4e0dc
+ Pink:
+  #f9acbb
+*/
+
+body{
+  font-family: 'Quicksand', sans-serif, Arial, Helvetica;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #efefee;
+}
+
+
+/* Global */
+.container{
+  width: 85%; 
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  background-color: #0f7e9b;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 60px;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+  text-decoration: none;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a{
+  color: #f9acbb;
+  font-weight: bold;
+}
