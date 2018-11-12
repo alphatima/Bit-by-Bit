@@ -1,83 +1,53 @@
-/* Template colors
- Blue:
-  #0f7e9b
-  #92d7ef
-  #a2eae0
-  Beige
-  #f9cf92
- Gray:
-  #d5d1ca
-  #efefee
-  #e4e0dc
- Pink:
-  #f9acbb
-*/
 
 body{
   font-family: 'Quicksand', sans-serif, Arial, Helvetica;
   font-size: 15px;
-  background-image: url(../images/computer.jpg);
-  background-repeat:no-repeat;
-  background-size: 100vw;
   line-height: 1.5;
   padding: 0;
   margin: 0;
   background-color: #efefee;
 }
 
+/* Header*/
 
-/* Global */
-.container{
-  width: 85%;
-  margin: auto;
-  overflow: hidden;
+header{
+  background-color: #121210;
+  width: 100%;
 }
 
-ul{
+.full-width-img{
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar{
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.nav-bar ul{
   margin: 0;
   padding: 0;
 }
 
-/* Header */
-header{
-  color: #ffffff;
-  padding-top: 20px;
-  min-height: 60px;
-}
-
-header a{
+.nav-bar li{
+  display: inline;
+  padding: 0 10px 0 10px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
 }
 
-#title{
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 30pt;
-}
+/* Global */
 
-header li{
-  float: left;
-  display: inline;
-  padding: 0 10px 0 10px;
-}
-
-header nav{
+.container{
+  width: 85%;
   margin: auto;
-  margin-top: 10px;
-  margin-left: 30%;
-}
-
-header .current a{
-  color: #e8491d;
-  font-weight: bold;
-}
-
-#showcase{
-  margin-top: 50%;
 }
 
 .container h1{
@@ -90,3 +60,14 @@ header .current a{
   margin: auto; 
 }
 
+.highlight{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/footer.jpg");
+  background-size: 100%;
+}
